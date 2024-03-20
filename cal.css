@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url("file://C:/Users/Public/Pictures/calc.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+    
+    
+}
+.Calculator{
+    width:100%;
+    max-width: 260px;
+    align-items: center;
+     margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #a42857;
+    
+}
+.screen{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100px;
+    text-align: right;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 25px;
+    
+    
+}
+
+
+
+.cal-buttons{
+    background: #ffffff;
+    padding: 15px;
+}
+
+ul#buttons{
+    display: flex;
+    list-style-type:none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul#buttons li{
+    font-size: 24px;
+    width:20%;
+    margin: 5px 2.5%;
+    height: 50px;
+    color: #260f0f;
+    background: #86bc86;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(45, 32, 159, 0.5);
+    padding-top: 11px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+}
+ul#buttons li:hover,ul#buttons li:visited{
+    background: #b84056;
+    color: #ffffff;
+}
+ul#buttons li:active{
+    background: #000000;
+}
+li#equals{
+    width: 100%;
+    border-radius: 20px;
+}
